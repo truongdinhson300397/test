@@ -5,8 +5,9 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Foundation\Auth\User as Authenticatable;
 
-class Admin extends Model
+class Admin extends Authenticatable
 {
     use HasFactory;
 
@@ -14,7 +15,9 @@ class Admin extends Model
         'email',
         'password',
         'admin_class',
+        'company_id',
         'is_super_admin',
+        'password_reset_at',
         'logined_at',
     ];
 
