@@ -13,11 +13,10 @@
         "laravel/framework": "^8.40",
         "laravel/passport": "^10.3",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.4",
-        "predis/predis": "^1.1"
+        "predis/predis": "^1.1",
+        "laravel/ui": "^3.4"
     },
     "require-dev": {
-        "deployer/deployer": "^6.8",
         "barryvdh/laravel-ide-helper": "^2.8",
         "facade/ignition": "^2.5",
         "fakerphp/faker": "^1.9.1",
