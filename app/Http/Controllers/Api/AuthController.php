@@ -22,7 +22,6 @@ class AuthController extends Controller {
      * @return JsonResponse
      */
     public function showLogin(Request $request) {
-        dd(123);
        return response()->json(['true']);
     }
 
