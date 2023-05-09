@@ -13,8 +13,8 @@ class DatabaseSeeder extends Seeder {
      */
     public function run() {
         $this->call(RootAdminSeeder::class);
-        $this->call(MenuTableSeeder::class);
-        $this->call(AdminClassMenuTableSeeder::class);
+//        $this->call(MenuTableSeeder::class);
+//        $this->call(AdminClassMenuTableSeeder::class);
         $this->call(UserTableSeeder::class);
     }
 }
